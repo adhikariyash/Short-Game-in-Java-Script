@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stone paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="top">
+        <div class="scores">
+          <h2 id="scoreOn">score: <label for="win" id="add">0</label></h2>
+         <h2 id="gamePL">Game Played: <label for="gamePlayed" id="gamePs">0</label></h2>
+        </div>
+         <h2 id="started">Welcome to stone, paper and scissors game</h2>
+          <button id="startPlaying">Start Playing!</button>
+          <p id="compChoice">Choose your Sign!</p>
+          <div class="compLate" id="comLate">
+            
+          </div>
+          <div id ="winlos"></div>
+        </div>
+
+      <div class="bottom" id="bottom">
+          <div class="choice">
+        <button id="stone" onclick="play(this.value)" value="stone">
+          stone
+        </button>
+        <button id="paper" onclick="play(this.value)" value="paper">
+          paper
+        </button>
+        <button id="scissor" onclick="play(this.value)" value="scissor">
+          scissor
+        </button>
+        </div>
+        <button id="reset">RESET?</button>
+       
+      </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

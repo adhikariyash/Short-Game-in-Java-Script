@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: skyblue;
+    padding: 20px;
+    width: 40%;
+   border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.3rem;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.top h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 90%;
+    text-align: center;
+}
+.top button{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.top p{
+    font-size: 2rem;
+    font-weight: 1000;
+    display:none;
+    margin-bottom: 20px;
+}
+.top .compLate{
+    font-size: 1.4rem;
+    display:none;
+    font-weight: 1000;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 30px;
+}
+.bottom{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    gap: 10px;
+    
+}
+.bottom button{
+    font-size: 2rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+}
+.scores{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#scoreOn{
+    display:none;
+    font-size: 2rem;
+}
+#gamePL{
+    display:none;
+    font-size: 2rem;
+}
+#winlos{
+    font-size: 2rem;
+    margin-bottom: 10px;;
+    padding:10px;
+}
+#reset{
+    display: none;
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 20px;
+}
+.choice{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+@media (max-width: 950px){
+    .choice button{
+        font-size: 1.4rem;
+        padding:13px;
+    }
+    #gamePL{
+        font-size: 1.4rem;
+    }
+    #scoreOn{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 740px){
+    .choice{
+        margin-top:20px;
+    }
+    .choice button{
+        font-size: 1.3rem;
+    }
+    .main{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       padding: 30px;
+      
+    }
+    .top{
+        width: 80%;
+    }
+    .top p{
+        font-size: 1.5rem;
+    }
+    .top .compLate{
+        font-size: 1rem;
+    }
+    #gamePL{
+        font-size: 1.2rem ;
+        text-align: center;
+    }
+    #scoreOn{
+        font-size: 1.2rem;
+    }
+    #compLate{
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media (max-width: 545px) {
+    .main{
+        width: 60%;
+    }
+    .choice button{
+        padding: 10px 15px;
+    }
+    .top{
+        width: 70%;
+        padding: 10px;
+    }
+    .top p{
+        font-size: 1rem;
+    }
+    #scoreOn{
+        font-size: 1rem;
+    }
+    #gamePL{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 380px){
+    .choice{
+        gap: 1rem;
+    }
+    .choice button{
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+    
+}
