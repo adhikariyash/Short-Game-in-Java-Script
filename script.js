@@ -26,7 +26,8 @@ choice.style.display = "block"
  btns.style.display = "flex";
  gamPL.style.display = "block";
  scoreOn.style.display = "block";
- reset.style.display = "block"
+ reset.style.display = "block";
+ winlos.style.display = "block"
 
 })
 
@@ -89,6 +90,8 @@ choice.style.display = "none"
  btns.style.display = "none";
  gamPL.style.display = "none";
  scoreOn.style.display = "none";
+ winlos.style.display = "none"
+ compLate.style.display = "none"
   console.log("clicked")
 })
 
