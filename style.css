@@ -77,9 +77,15 @@ body{
 }
 .bottom button{
     font-size: 2rem;
-    padding: 10px 15px;
-    border-radius: 10px;
-    border:3px solid black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border:3px solid rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0.973);
+    color:rgb(255, 254, 254);
+    transition: all 0.4s ease-in-out;
+}
+.bottom button:hover{
+   background-color: rgb(255, 0, 0);
 }
 .scores{
     display: flex;
@@ -164,12 +170,15 @@ body{
 
 
 
-@media (max-width: 545px) {
+@media (max-width: 550px) {
     .main{
         width: 60%;
     }
+    .choice{
+        gap: 10px;
+    }
     .choice button{
-        padding: 10px 15px;
+        padding: 10px 10px;
     }
     .top{
         width: 70%;
@@ -185,9 +194,15 @@ body{
         font-size: 1rem;
     }
 }
-@media (max-width: 380px){
+@media (max-width: 450px){
     .choice{
-        gap: 1rem;
+        gap: 7px
+    }
+    .bottom{
+        width: 14rem;
+    }
+    .main{
+        width: 15rem;
     }
     .choice button{
         font-size: 1.2rem;
