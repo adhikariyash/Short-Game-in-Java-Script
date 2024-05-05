@@ -47,12 +47,14 @@ body{
     font-size: 20px;
     padding: 7px;
     border-radius: 5px;
+  cursor:pointer;
 }
 .top p{
     font-size: 2rem;
     font-weight: 1000;
     display:none;
     margin-bottom: 20px;
+  cursur:pointer;
 }
 .top .compLate{
     font-size: 1.4rem;
@@ -78,11 +80,12 @@ body{
 .bottom button{
     font-size: 2rem;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 10px;
     border:3px solid rgb(255, 0, 0);
     background-color: rgba(0, 0, 0, 0.973);
     color:rgb(255, 254, 254);
     transition: all 0.4s ease-in-out;
+  cursor:pointer;
 }
 .bottom button:hover{
    background-color: rgb(255, 0, 0);
